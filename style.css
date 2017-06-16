@@ -1,0 +1,98 @@
+body {
+    font-family: "Noto Sans Japanese";
+    margin: 0;
+    overflow: hidden;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+.flex {
+    display: flex; /* 要素をflexboxに対応させる */
+    align-items: center; /* 縦方向の中央揃え */
+    justify-content: center; /* 横方向の中央揃え */
+    flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+
+#foundation {
+    width: 100vw;
+    height: 100vh;
+}
+
+#titleBox {
+    background: linear-gradient(-45deg, rgba(255, 0, 79, 0.5), rgba(0, 192, 255, 0.5)), url(backgroundColor.jpg) center center / cover no-repeat;
+    width: 100vw;
+    height: 30vh;
+}
+
+#title {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 10vh;
+    letter-spacing: 0.5vw;
+    color: #ffffff;
+}
+
+#contantBox {
+    width: 100vw;
+    height: 70vh;
+}
+
+.pageLinkBox {
+    border: solid 0.5vh #eeeeee;
+    border-radius: 3vh;
+    width: 40vw;
+    height: 15vh;
+    justify-content: space-around;
+    flex-direction: row;
+    transition:0.5s;
+}
+
+.pageLinkBox:hover {
+    border: solid 0.5vh #00c0ff;
+}
+
+.pageLinkBox:active {
+    border: solid 0.5vh #ff004f;
+}
+
+.pageLinkTitleBox {
+    width: calc(40vw - 15vh);
+    height: 15vh;
+    overflow: hidden;
+}
+
+.pageLinkTitle {
+    font-size: 7.5vh;
+}
+
+.pageLinkIconBox {
+    width: 15vh;
+    height: 15vh;
+}
+
+.pageLinkIcon {
+    border-radius: 3vh;
+    width: 14vh;
+    height: 14vh;
+}
+
+#pageLinkIcon1 {
+    background: url(/omoro_button/icon.png) center center / cover no-repeat;
+}
+
+@media screen and (orientation:portrait){ /*デバイスの画面が縦長の時に適用される*/
+
+    #titleBox {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    #title {
+        font-size: 5vh;
+    }
+
+    #contantBox {
+        width: 100vw;
+        height: 80vh;
+    }
+}
