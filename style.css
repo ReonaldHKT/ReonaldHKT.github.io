@@ -95,4 +95,13 @@ body {
         width: 100vw;
         height: 80vh;
     }
+
+    .pageLinkBox {
+        border-radius: 3vw;
+        width: 95vw;
+    }
+
+    .pageLinkTitleBox {
+        width: calc(95vw - 15vh);
+    }
 }
