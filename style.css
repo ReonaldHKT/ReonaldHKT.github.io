@@ -40,17 +40,20 @@ body {
 }
 
 #contantBox {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100vw;
     height: 70vh;
 }
 
 .pageLinkBox {
-    border: solid 0.5vh #eeeeee;
-    border-radius: 3vh;
-    width: 40vw;
-    height: 15vh;
     justify-content: space-around;
     flex-direction: row;
+    border: solid 0.5vh #eeeeee;
+    border-radius: 3vh;
+    width: 45vw;
+    height: 15vh;
     transition:0.5s;
 }
 
@@ -63,7 +66,7 @@ body {
 }
 
 .pageLinkTitleBox {
-    width: calc(40vw - 15vh);
+    width: calc(45vw - 15vh);
     height: 15vh;
     overflow: hidden;
 }
