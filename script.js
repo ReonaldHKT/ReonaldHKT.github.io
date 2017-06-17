@@ -7,8 +7,8 @@ function convertAbsUrl(relativePath){
 console.log("JavaScriptが読み込まれました!");
 
 document.getElementById("pageLinkBox1").onclick = function(){
-    location.href = "/omoro_button/index.html";
-    location.href = convertAbsUrl("/omoro_button/index.html");
+    location.href = "https://reonaldhkt.github.io/omoro_button/index.html";
+    //location.href = convertAbsUrl("/omoro_button/index.html");
 }
 
 /*iOS10のSafariで複数指で拡大できてしまうのを防ぐ*/
