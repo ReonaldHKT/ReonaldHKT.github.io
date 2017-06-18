@@ -25,7 +25,7 @@ body {
 }
 
 #titleBox {
-    background: linear-gradient(-45deg, rgba(255, 0, 79, 0.5), rgba(0, 192, 255, 0.5)), url(backgroundColor.jpg) center center / cover no-repeat;
+    background: linear-gradient(-45deg, rgba(255, 0, 79, 0.5), rgba(0, 192, 255, 0.5)), url(backgroundLow.jpg) center center / cover no-repeat;
     width: 100vw;
     height: 20vh;
     transition:0.5s;
