@@ -27,7 +27,7 @@ body {
 #titleBox {
     background: linear-gradient(-45deg, rgba(255, 0, 79, 0.5), rgba(0, 192, 255, 0.5)), url(backgroundColor.jpg) center center / cover no-repeat;
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     transition:0.5s;
 }
 
@@ -40,14 +40,16 @@ body {
 }
 
 #contantBox {
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-around;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
 }
 
 .pageLinkBox {
+    margin: calc((20vh - 15vh) / 2 - 1vh) auto;
     justify-content: space-around;
     flex-direction: row;
     border: solid 0.5vh #eeeeee;
@@ -102,11 +104,14 @@ body {
     }
 
     #contantBox {
+        justify-content: flex-start;
+        flex-direction: column;
         width: 100vw;
         height: 80vh;
     }
 
     .pageLinkBox {
+        margin: calc((100vw - 95vw) / 2);
         border-radius: 3vw;
         width: 95vw;
     }
